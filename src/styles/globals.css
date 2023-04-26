@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.logos {
+  border-top: 0.2px solid gainsboro;
+}
+.row-logo {
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+}
+p {
+  color: #9497a1;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 33px;
+  font-style: normal;
+  font-family: open sans;
+}
+span {
+  font-weight: bold;
+}
+.header {
+  max-width: 75%;
+  margin-left: 100px;
+}
+.style {
+  background-color: #f0f9ff;
+}
+.style-h2 {
+  width: 300px;
+  margin-left: 40%;
+}
+.style-p {
+  text-align: center;
+  margin-left: 420px;
+  width: 400px;
+  height: 99px;
+  line-height: 25px;
+}
+.style-btn {
+  border: 2px solid #f1f6fa;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: white;
+}
+.button {
+  margin-left: 45%;
+}
+.style-style {
+  width: 300px;
+  margin-right: 420px;
+}
+.card {
+  border: none;
+}
+.icons-btn{
+  border: 2px solid #f1f6fa;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color:#f0f9ff  ;
+  margin: 10px;
+  padding: 0 15px;
+}
+.division {
+  background-color: #185cff;
+  display: flex;
+  align-items: center;
+}
+.division .border-end{
+  height: 10vh;
+  
+
+}
+.contact{
+  background-color: #f1f6fa;
+}
