@@ -58,11 +58,11 @@ span {
 .card {
   border: none;
 }
-.icons-btn{
+.icons-btn {
   border: 2px solid #f1f6fa;
   border-radius: 5px;
   padding: 0 10px;
-  background-color:#f0f9ff  ;
+  background-color: #f0f9ff;
   margin: 10px;
   padding: 0 15px;
 }
@@ -71,11 +71,110 @@ span {
   display: flex;
   align-items: center;
 }
-.division .border-end{
+.division .border-end {
   height: 10vh;
-  
-
 }
-.contact{
+.contact {
   background-color: #f1f6fa;
 }
+.form {
+  background-color: #f1f6fa;
+}
+.title {
+  letter-spacing: -0.015em;
+  font-size: 38px;
+  font-family: "Manrope";
+  font-weight: 700;
+  width: 65%;
+  line-height: 50px;
+}
+.par {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  font-family: "open sans";
+  width: 60%;
+}
+.email-tel {
+  line-height: 28px;
+  font-family: "open sans";
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  color: #292d33;
+}
+.contact-style {
+  margin: 0;
+  line-height: 28px;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+}
+.card-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  color: #292d33;
+  letter-spacing: -0.015em;
+}
+label {
+  font-family: "open Sans";
+  color: #9497a1;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+}
+.form-division {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.form-division label {
+  margin-bottom: 10px;
+}
+.form-division input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.inp {
+  margin-left: 60%;
+  padding: 8px 30px;
+}
+.new {
+  line-height: 33px;
+  width: 75%;
+  font-family: "open sans";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  opacity: 0.5;
+}
+
+.input-group input {
+  background-color: #c9dcec;
+}
+.input-group input::placeholder {
+  color: black;
+}
+.foot{
+  font-weight: bolder;
+  
+}
+.footer{
+  color: black;
+  font-size: 0.8em;
+}
+/****responsive***/
+@media(max-width: 576px) {
+  .home img{
+    width: 354px;
+    height: 224px;
+  }
+}
+
+/****responsive***/
