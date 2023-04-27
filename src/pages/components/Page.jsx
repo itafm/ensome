@@ -6,9 +6,9 @@ import p8 from "../../../public/img/8.png";
 function Page() {
   return (
     <>
-      <section>
-        <div className="container ">
-          <div className="row py-5 home">
+      <section className="Page">
+        <div className="container">
+          <div className="row py-5 ">
             <div className="col-md-6 ">
               <h2 className="fs-1 ">
                 Find true power in your data with Ensome
@@ -33,7 +33,7 @@ function Page() {
           </div>
         </div>
         <div className="container">
-          <div className="row mx-5 py-5">
+          <div className="row py-5">
             <div className="col-md-6">
               <Image
                 className="img"

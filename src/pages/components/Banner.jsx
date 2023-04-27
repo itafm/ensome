@@ -14,8 +14,8 @@ function Banner() {
   return (
     <>
       <section>
-        <div className="container">
-          <div className="row mx-5 py-5 ">
+        <div className="container home">
+          <div className="row py-5 ">
             <div className="col-md-6 ">
               <h2 className="fs-1 ">
                 Find true power in your data with Ensome
